@@ -1,6 +1,7 @@
 #include<iostream>
      
      int main(){
-        std::cout<<"Hello world!";
-        return 0;
+        const int* i;
+        int a=10;
+        i=&a;
      }
